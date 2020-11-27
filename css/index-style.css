@@ -17,6 +17,12 @@
     background-color: black;
 
 }
+/*.navbar-toggler{
+    background-color:white;
+}
+navbar-toggler-icon{
+    color:black;
+}*/
 .a-link{
     color:white;
     background-color: transparent;
@@ -41,7 +47,7 @@
 
 .divOfVid > video {
 
-    width:180vmin;
+    width:200vmin;
     z-index: 1;
 
 }
@@ -140,7 +146,7 @@ h1{
    /* margin-top: 135vmin;*/
     color: white;
     background-color: black;
-
+    padding-bottom: 3em;
 }
 
 .divMapLeague > img{
@@ -195,3 +201,110 @@ text-align: center;
     border: darkgrey 1px solid;
 }
 
+.divPreFooterVid{
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    font-family: "Dosis-Regular";
+    margin-top: 0;
+}
+
+.divPreFooterVid > video {
+    width:200vmin;
+    z-index: 1;
+}
+.divPreFooterVid > a {
+    font-family: Dosis-Bold;
+    display: flex;
+    justify-content: center;
+    color: black;
+    background-color: yellow;
+    margin-top: 70vmin;
+    position:absolute;
+    z-index: 2;
+    width: 200px;
+    height: 50px;
+}
+
+.divDescobrir{
+    padding:3%;
+}
+.descobrir{
+    text-align: center;
+}
+.descobrir >h3{
+    font-family: Dosis-Regular;
+    font-size: 2em;
+
+}
+.descobrir >h2{
+    font-family: Dosis-Bold;
+    font-size: 4em;
+}
+.cardsDesc{
+    text-align: center;
+    overflow:hidden;
+    padding: 10%;
+    display: flex;
+ /*   flex-direction: column;*/
+    justify-content: center;
+    flex-wrap: wrap;
+
+
+}
+.aDark{
+    color:black;
+    background-color: transparent;
+    text-decoration: none;
+}
+.aDark:active{
+    color:black;
+    background-color: transparent;
+    text-decoration: none;
+}
+.aDark:hover{
+    color:black;
+    background-color: transparent;
+    text-decoration: none;
+}
+.aDark:visited{
+    color:black;
+    background-color: transparent;
+    text-decoration: none;
+}
+.cardsDesc > div{
+    margin-top: 16vmin;
+    width: 75vmin;
+}
+.cardsDesc > div > img {
+    border-radius: 15px;
+    height: 45vmin;
+    width: 100%;
+}
+.cardLol > h5{
+    padding: 6%;
+    font-family: Dosis-Bold;
+    width: 80vmin;
+    text-align: center;
+
+}
+
+
+
+
+
+
+
+
+.divPreFooterVid > a:hover{
+    background-color: yellow;
+    transition: width 2s;
+    color:white;
+    background-color: transparent;
+    text-decoration: none;
+    border: darkgrey 3px solid;
+    border-radius: 15px;
+}
+.divPreFooterVid > a > span{
+    margin-top: 5%;
+}
