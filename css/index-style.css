@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: "Dosis-Regular";
+    src: url("../fonts/Dosis/Dosis-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Dosis-Bold";
+    src: url("../fonts/Dosis/Dosis-Bold.ttf");
+}
+.navbar{
+    background-color: black;
+
+}
+.a-link{
+    color:white;
+    background-color: transparent;
+    text-decoration: none;
+}
+.a-link:active{
+    color:white;
+    background-color: transparent;
+    text-decoration: none;
+}
+.a-link:hover{
+    color:white;
+    background-color: transparent;
+    text-decoration: none;
+}
+.a-link:visited{
+    color:white;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+
+.divOfVid > video {
+   /* width: 170%;
+    margin-left: -55%;*/
+    width: 170%;
+
+    z-index: 1;
+
+}
+.divOfVid{
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+
+.divOfVid > img{
+  /*  margin-top: 40%;*/
+    position:absolute;
+    z-index: 2;
+    width: 50vmin;
+    margin-top: 40vmin;
+
+
+}
+
+.divOfVid > a {
+    display: flex;
+    justify-content: center;
+    color: black;
+    background-color: yellow;
+    margin-top: 70vmin;
+    position:absolute;
+    z-index: 3;
+    width: 200px;
+    height: 50px;
+
+
+}
+.divOfVid > a:hover{
+    background-color: yellow;
+    transition: width 2s;
+    color:white;
+    background-color: transparent;
+    text-decoration: none;
+    border: darkgrey 1px solid;
+}
+.divOfVid > a > span{
+    margin-top: 5%;
+}
+
+.styleVideoCenter{
+    font-family: "Dosis-Regular";
+    margin-top: 0;
+}
+h1{
+    font-family: "Dosis-Bold";
+}
+
