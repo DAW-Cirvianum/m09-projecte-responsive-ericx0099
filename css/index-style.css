@@ -1,6 +1,7 @@
 *{
     padding: 0;
     margin: 0;
+
 }
 
 @font-face {
@@ -39,10 +40,8 @@
 
 
 .divOfVid > video {
-   /* width: 170%;
-    margin-left: -55%;*/
-    width: 170%;
 
+    width:180vmin;
     z-index: 1;
 
 }
@@ -59,13 +58,14 @@
   /*  margin-top: 40%;*/
     position:absolute;
     z-index: 2;
-    width: 50vmin;
-    margin-top: 40vmin;
+    width: 70vmin;
+    margin-top: 35vmin;
 
 
 }
 
 .divOfVid > a {
+    font-family: Dosis-Bold;
     display: flex;
     justify-content: center;
     color: black;
@@ -75,8 +75,6 @@
     z-index: 3;
     width: 200px;
     height: 50px;
-
-
 }
 .divOfVid > a:hover{
     background-color: yellow;
@@ -96,5 +94,104 @@
 }
 h1{
     font-family: "Dosis-Bold";
+}
+.divCenterDesc{
+    font-family: "Dosis-Regular";
+    margin-left: 9%;
+    margin-right: 9%;
+    text-align: center;
+
+}
+
+
+
+.divAkali{
+    background-color: #bf7a30;
+    background-image: linear-gradient(0deg, black 0%, gray 46%, white 100%);
+    overflow: hidden;
+
+}
+
+
+.imgAkali{
+    width: 80vmin;
+    margin-left:auto;
+    margin-right: auto;
+    margin-bottom: 9vh;
+    margin-top: 2vh;
+}
+.textAkali{
+
+    font-family: Dosis-Bold;
+    text-align: center;
+    letter-spacing: 2px;
+    margin-bottom:  -10%;
+    color: black;
+}
+
+.textAkali >h3{
+    font-family: Dosis-Regular;
+    font-size: 2vh;
+}
+.textAkali > h2{
+    font-size: 7vh;
+}
+.divMapLeague{
+   /* margin-top: 135vmin;*/
+    color: white;
+    background-color: black;
+
+}
+
+.divMapLeague > img{
+    width: 80vmin;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.divMapLeague > h2{
+    font-family: "Dosis-Bold";
+    text-align: center;
+
+}
+.divLeyenda{
+    margin-top: 7vmin;
+    text-align: center;
+    align-items: center;
+text-align: center;
+
+}
+.divLeyenda >h3{
+    font-family: Dosis-Regular;
+    font-size: 2em;
+}
+.divLeyenda >h2{
+    font-family: Dosis-Bold;
+
+    font-size: 4em;
+}
+.divLeyenda >p{
+    font-family: Dosis-Regular;
+    font-size: 1em;
+    margin-left: 9%;
+    margin-right: 9%;
+
+}
+
+.divLeyenda >a> button {
+    width: 10em;
+    height: 3em;
+    color: black;
+    background-color: yellow;
+    font-family: Dosis-Bold;
+}
+.divLeyenda > a>button:hover{
+    background-color: yellow;
+    transition: width 2s;
+    color:white;
+    background-color: transparent;
+    text-decoration: none;
+    border: darkgrey 1px solid;
 }
 
