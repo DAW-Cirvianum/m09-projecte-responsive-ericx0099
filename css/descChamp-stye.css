@@ -1,0 +1,127 @@
+
+@font-face {font-family: "BeaufortforLOL-Bold"; src: url("//db.onlinewebfonts.com/t/12420e8c141ca7c3dff41de2d59df13e.eot");
+    src: url("//db.onlinewebfonts.com/t/12420e8c141ca7c3dff41de2d59df13e.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/12420e8c141ca7c3dff41de2d59df13e.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/12420e8c141ca7c3dff41de2d59df13e.woff") format("woff"), url("//db.onlinewebfonts.com/t/12420e8c141ca7c3dff41de2d59df13e.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/12420e8c141ca7c3dff41de2d59df13e.svg#BeaufortforLOL-Bold") format("svg"); }
+@font-face {
+    font-family: "Dosis-Regular";
+    src: url("../fonts/Dosis/Dosis-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Dosis-Bold";
+    src: url("../fonts/Dosis/Dosis-Bold.ttf");
+}
+*{
+    padding:0;
+    margin:0;
+    font-family: Dosis-Bold;
+}
+.navbar{
+    background-color: black;
+
+}
+/*.navbar-toggler{
+    background-color:white;
+}
+navbar-toggler-icon{
+    color:black;
+}*/
+.a-link{
+    color:white;
+    background-color: transparent;
+    text-decoration: none;
+}
+.a-link:active{
+    color:white;
+    background-color: transparent;
+    text-decoration: none;
+}
+.a-link:hover{
+    color:white;
+    background-color: transparent;
+    text-decoration: none;
+}
+.a-link:visited{
+    color:white;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.divTotal{
+    background-color: white;
+}
+.divTotal > .divContent{
+    background: linear-gradient(to bottom, #2c2c29,#5b5b56);
+}
+.divOfTitle{
+
+    overflow: hidden;
+    display: grid;
+    justify-content: center;
+    position: relative;
+    height: 130vmin;
+}
+
+.divOfTitle >img{
+    width: 195vmin;
+    z-index: 1;
+
+
+}
+.divOfTitle>div{
+    color: white;
+    width: 100%;
+    position: absolute;
+    z-index: 2;
+    text-align: center;
+    margin-top: 92vmin;
+
+
+}
+.divOfTitle>div>h1{
+
+    font-size: 7vh;
+    font-weight: bold;
+    font-family: "BeaufortforLOL-Bold";
+
+}
+.divOfTitle>div>p{
+    font-family: "BeaufortforLOL-Bold";
+    font-size: 2vh;
+    font-weight: bold;
+
+}
+.divDescription{
+    background-color: blue;
+    margin-left: 10vmin;
+    margin-right: 10vmin;
+    background:linear-gradient(to bottom, #2c2c29, black);
+}
+.divDescAndROl{
+    background-color: purple;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    align-items: center;
+
+}
+.divRol{
+    width: 100%;
+    background-color: aqua;
+    height: 100%;
+}
+.descChmp{
+    width: 65vmin;
+    background-color: gold;
+    align-self: center;
+    justify-self: center;
+    width: 100%;
+}
+@media (max-width: 700px){
+    .divDescAndROl{
+        grid-template-columns: 1fr;
+    }
+}
+
+/*.divOfTitle>img:hover{
+    filter: blur(6px);
+}*/
