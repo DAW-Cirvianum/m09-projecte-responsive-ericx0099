@@ -176,7 +176,14 @@ navbar-toggler-icon{
     margin: 0 0;
     justify-content: space-between;
     background: linear-gradient(to bottom, black, white);
-
+    text-align: center;
+    padding-bottom: 6vmin;
+}
+.divHabilites > h1{
+    text-shadow:1px 1px  white, 0 0 10px black;
+    color:transparent;
+    font-size: 3em ;
+    margin: 8vmin 10vmin;
 }
 .contentHabilites{
     display: grid;
