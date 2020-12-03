@@ -50,10 +50,10 @@ navbar-toggler-icon{
     background-color: white;
 }
 .divTotal > .divContent{
-    background: linear-gradient(to bottom, #2c2c29,#5b5b56);
+    /*background: black;*/
+    background:black;
 }
 .divOfTitle{
-
     overflow: hidden;
     display: grid;
     justify-content: center;
@@ -77,51 +77,159 @@ navbar-toggler-icon{
 
 
 }
+.divInfo>a{
+    color:white;
+    background-color: transparent;
+    text-decoration: none;
+    font-weight: lighter;
+}
+.divInfo>a:active{
+    color:white;
+    background-color: transparent;
+    text-decoration: none;
+}
+.divInfo>a:hover{
+    color:white;
+    background-color: transparent;
+    text-decoration: none;
+}
+.divInfo>a:visited{
+    color:white;
+    background-color: transparent;
+    text-decoration: none;
+}
 .divOfTitle>div>h1{
 
     font-size: 7vh;
     font-weight: bold;
-    font-family: "BeaufortforLOL-Bold";
+    text-shadow:1px 1px  white, 0 0 10px white;
+    letter-spacing: 1vmin;
+    color:white;
 
 }
 .divOfTitle>div>p{
-    font-family: "BeaufortforLOL-Bold";
+    text-shadow:1px 1px  white, 0 0 10px white;
+    font-family: "BeaufortforLOLdivInfo";
     font-size: 2vh;
     font-weight: bold;
-
+    color:white;
 }
 .divDescription{
-    background-color: blue;
-    margin-left: 10vmin;
-    margin-right: 10vmin;
-    background:linear-gradient(to bottom, #2c2c29, black);
+
+ /*   margin-left: 10vmin;
+    margin-right: 10vmin;*/
+  /*  background:black;*/
+    background-image: linear-gradient(bottom, black 0%, white 100%);
 }
 .divDescAndROl{
-    background-color: purple;
+
     display: grid;
     grid-template-columns: 1fr 1fr;
     text-align: center;
     align-items: center;
+    margin-left: 10vmin;
+    margin-right: 10vmin;
 
+}
+.divInfo{
+    text-align: center;
+    color:white;
+    border-top: 1px solid white;
+    display:grid;
+    grid-template-columns: auto auto auto auto;
+    margin-left: 10vmin;
+    margin-right: 10vmin;
 }
 .divRol{
     width: 100%;
-    background-color: aqua;
     height: 100%;
+    color:white;
+    display: grid;
+    grid-template-columns: auto auto;
+    padding-bottom: 5vmin;
+
+}
+.divRol>div>img{
+    width: 15vmin;
+    height:15vmin;
+
+}
+.invertImg{
+    filter: invert(100%);
 }
 .descChmp{
     width: 65vmin;
-    background-color: gold;
+    padding: 2%;
     align-self: center;
     justify-self: center;
     width: 100%;
+    color:white;
+    padding-bottom: 5vmin;
 }
 @media (max-width: 700px){
     .divDescAndROl{
         grid-template-columns: 1fr;
     }
 }
+.divHabilites{
+    padding-top: 3%;
+    margin: 0 0;
+    justify-content: space-between;
+    background: linear-gradient(to bottom, black, white);
 
+}
+.contentHabilites{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    margin: 5vmin 10vmin;
+    grid-gap: 2%;
+}
+.contentHabilites>div{
+    text-align: center;
+}
+.contentHabilites>div>p{
+    font-size: 1rem;
+}
+.contentHabilites>div>img{
+    border-radius: 5%;
+}
+.divPreFooterVid{
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    font-family: "Dosis-Regular";
+    margin-top: -5vmin;
+}
+
+.divPreFooterVid > video {
+    width:200vmin;
+    z-index: 1;
+}
+.divPreFooterVid > a {
+    font-family: Dosis-Bold;
+    display: flex;
+    justify-content: center;
+    color: black;
+    background-color: yellow;
+    margin-top: 70vmin;
+    position:absolute;
+    z-index: 2;
+    width: 200px;
+    height: 50px;
+}
+
+.divPreFooterVid > a:hover{
+    background-color: yellow;
+    transition: width 2s;
+    color:white;
+    background-color: transparent;
+    text-decoration: none;
+    border: darkgrey 3px solid;
+    border-radius: 15px;
+}
+.divPreFooterVid > a > span{
+    margin-top: 5%;
+}
 /*.divOfTitle>img:hover{
     filter: blur(6px);
 }*/
