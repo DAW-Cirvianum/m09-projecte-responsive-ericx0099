@@ -1,22 +1,4 @@
-*{
-    padding: 0;
-    margin: 0;
 
-}
-
-@font-face {
-    font-family: "Dosis-Regular";
-    src: url("../fonts/Dosis/Dosis-Regular.ttf");
-}
-
-@font-face {
-    font-family: "Dosis-Bold";
-    src: url("../fonts/Dosis/Dosis-Bold.ttf");
-}
-.navbar{
-    background-color: black;
-
-}
 /*.navbar-toggler{
     background-color:white;
 }
@@ -115,7 +97,7 @@ h1{
     background-color: #bf7a30;
     background-image: linear-gradient(0deg, black 0%, gray 46%, white 100%);
     overflow: hidden;
-
+padding-bottom: 20vmin;
 }
 
 
@@ -123,8 +105,8 @@ h1{
     width: 80vmin;
     margin-left:auto;
     margin-right: auto;
-    margin-bottom: 9vh;
-    margin-top: 2vh;
+    margin-top: -12vmin;
+
 }
 .textAkali{
 
@@ -194,10 +176,9 @@ text-align: center;
 }
 .divLeyenda > a>button:hover{
     background-color: yellow;
-    transition: width 2s;
     color:white;
     background-color: transparent;
-    text-decoration: none;
+    cursor: pointer;
     border: darkgrey 1px solid;
 }
 
@@ -242,9 +223,10 @@ text-align: center;
     font-size: 4em;
 }
 .cardsDesc{
+    margin-top: -9vmin;
     text-align: center;
     overflow:hidden;
-    padding: 10%;
+    padding: 4%;
     display: flex;
  /*   flex-direction: column;*/
     justify-content: center;
@@ -282,19 +264,12 @@ text-align: center;
     width: 100%;
 }
 .cardLol > h5{
-    padding: 6%;
+    padding: 2%;
     font-family: Dosis-Bold;
     width: 80vmin;
     text-align: center;
 
 }
-
-
-
-
-
-
-
 
 .divPreFooterVid > a:hover{
     background-color: yellow;

@@ -1,0 +1,163 @@
+*{
+    padding:0;
+    margin:0;
+    font-family: Dosis-Bold;
+}
+
+@font-face {
+    font-family: "Dosis-Regular";
+    src: url("../fonts/Dosis/Dosis-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Dosis-Bold";
+    src: url("../fonts/Dosis/Dosis-Bold.ttf");
+}
+.navbar{
+    background-color: black;
+}
+
+                /******Footer CSS********/
+
+.iFooter{
+    background: linear-gradient(to bottom, #1e1e1e,black);
+
+    padding-top: 5vmin;
+    padding-bottom: 5vmin;
+}
+
+.divFotLogo{
+
+    display: grid;
+    justify-content: center;
+    padding-bottom: 4vmin;
+}
+.divFotLogo >img {
+    width: 60vmin;
+    height: 27vmin;
+
+
+}
+.firstContent{
+    display: grid;
+    justify-content: center;
+    text-align: center;
+}
+
+.eachFirstContent>a,.divTerms>a{
+    color:darkgrey;
+    background-color: transparent;
+    text-decoration: none;
+    font-weight: lighter;
+}
+.eachFirstContent>a:active,.divTerms>a:active{
+    color:darkgrey;
+    background-color: transparent;
+    text-decoration: none;
+}
+.eachFirstContent>a:hover,.divTerms>a:hover{
+    color:white;
+    background-color: transparent;
+    text-decoration: none;
+}
+.eachFirstContent>a:visited,.divTerms>a:visited{
+    color:darkgrey;
+    background-color: transparent;
+    text-decoration: none;
+}
+@media (min-width: 1120px){
+    .firstContent{
+        grid-template-columns: auto auto auto auto auto ;
+        justify-content: space-around;
+    }
+}
+
+.mediaLogos{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin-top: 5vmin;
+    justify-items:center;
+    width: 100%;
+    background-color: #161615;
+}
+
+.eachMedia>a{
+    font-size: 5vmin;
+    color:darkgrey;
+    background-color: transparent;
+    text-decoration: none;
+    font-weight: lighter;
+}
+.eachMedia>a:active{
+    color:darkgrey;
+    background-color: transparent;
+    text-decoration: none;
+}
+.eachMedia>a:hover{
+    color:white;
+    text-shadow:1px 1px  lightgray, 0 0 10px lightgray;
+    background-color: transparent;
+    text-decoration: none;
+}
+.eachMedia>a:visited{
+    color:darkgrey;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.divMarques{
+    justify-content: center;
+    text-align: center;
+    margin: 4vmin 10vmin;
+}
+
+.divTerms{
+    display: grid;
+    grid-template-columns: auto ;
+    grid-gap: 2vmin;
+    width: 100%;
+    justify-items:center;
+
+
+}
+@media (min-width: 1120px){
+    .divTerms{
+        display: grid;
+        grid-template-columns: auto auto auto  ;
+
+    }
+}
+.divTerms>div{
+    display: grid;
+    justify-items:center;
+}
+.divTerms>div>a{
+
+    color:darkgrey;
+    background-color: transparent;
+    text-decoration: none;
+    font-weight: lighter;
+}
+.divTerms>div>a:active{
+    color:darkgrey;
+    background-color: transparent;
+    text-decoration: none;
+}
+.divTerms>div>a:hover{
+    color:white;
+    background-color: transparent;
+    text-decoration: none;
+}
+.divTerms>div>a:visited{
+    color:darkgrey;
+    background-color: transparent;
+    text-decoration: none;
+}
+.pegi{
+    margin-top: 10vmin;
+    display: grid;
+    grid-template-columns:auto auto;
+    grid-gap: 10vh;
+    justify-content: center;
+
+}

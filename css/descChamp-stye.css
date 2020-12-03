@@ -17,7 +17,7 @@
 }
 .navbar{
     background-color: black;
-
+    position: fixed;
 }
 /*.navbar-toggler{
     background-color:white;
@@ -237,6 +237,9 @@ navbar-toggler-icon{
 .divPreFooterVid > a > span{
     margin-top: 5%;
 }
+
+
+
 /*.divOfTitle>img:hover{
     filter: blur(6px);
 }*/
