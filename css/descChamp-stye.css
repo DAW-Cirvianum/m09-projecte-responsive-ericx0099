@@ -132,6 +132,7 @@ navbar-toggler-icon{
 
 }
 .divInfo{
+
     text-align: center;
     color:white;
     border-top: 1px solid white;
@@ -139,6 +140,7 @@ navbar-toggler-icon{
     grid-template-columns: auto auto auto auto;
     margin-left: 10vmin;
     margin-right: 10vmin;
+    grid-gap: 3vmin;
 }
 .divRol{
     width: 100%;
@@ -223,6 +225,7 @@ navbar-toggler-icon{
     z-index: 2;
     width: 200px;
     height: 50px;
+    border-radius: 15px;
 }
 
 .divPreFooterVid > a:hover{
