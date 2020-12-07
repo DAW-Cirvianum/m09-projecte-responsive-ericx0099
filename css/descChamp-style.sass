@@ -1,0 +1,175 @@
+@font-face
+  font-family: "BeaufortforLOL-Bold"
+  src: url("//db.onlinewebfonts.com/t/12420e8c141ca7c3dff41de2d59df13e.eot")
+  src: url("//db.onlinewebfonts.com/t/12420e8c141ca7c3dff41de2d59df13e.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/12420e8c141ca7c3dff41de2d59df13e.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/12420e8c141ca7c3dff41de2d59df13e.woff") format("woff"), url("//db.onlinewebfonts.com/t/12420e8c141ca7c3dff41de2d59df13e.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/12420e8c141ca7c3dff41de2d59df13e.svg#BeaufortforLOL-Bold") format("svg")
+  font-family: "Dosis-Regular"
+  src: url("../fonts/Dosis/Dosis-Regular.ttf")
+  font-family: "Dosis-Bold"
+  src: url("../fonts/Dosis/Dosis-Bold.ttf")
+*
+  padding: 0
+  margin: 0
+  font-family: Dosis-Bold
+.navbar
+  background-color: black
+  position: fixed
+.a-link
+  color: white
+  background-color: transparent
+  text-decoration: none
+  &:active
+    color: white
+    background-color: transparent
+    text-decoration: none
+  &:hover
+    color: white
+    background-color: transparent
+    text-decoration: none
+  &:visited
+    color: white
+    background-color: transparent
+    text-decoration: none
+.divTotal
+  background-color: white
+  & > .divContent
+    background: black
+.divOfTitle
+  overflow: hidden
+  display: grid
+  justify-content: center
+  position: relative
+  height: 130vmin
+  & > img
+    width: 195vmin
+    z-index: 1
+  & > div
+    color: white
+    width: 100%
+    position: absolute
+    z-index: 2
+    text-align: center
+    margin-top: 92vmin
+    & > h1
+      font-size: 7vh
+      font-weight: bold
+      text-shadow: 1px 1px  white, 0 0 10px white
+      letter-spacing: 1vmin
+      color: white
+    & > p
+      text-shadow: 1px 1px  white, 0 0 10px white
+      font-family: "BeaufortforLOLdivInfo"
+      font-size: 2vh
+      font-weight: bold
+      color: white
+.divInfo
+  text-align: center
+  color: white
+  border-top: 1px solid white
+  display: grid
+  grid-template-columns: auto auto auto auto
+  margin-left: 10vmin
+  margin-right: 10vmin
+  grid-gap: 3vmin
+  & > a
+    color: white
+    background-color: transparent
+    text-decoration: none
+    font-weight: lighter
+    &:active
+      color: white
+      background-color: transparent
+      text-decoration: none
+    &:hover
+      color: white
+      background-color: transparent
+      text-decoration: none
+    &:visited
+      color: white
+      background-color: transparent
+      text-decoration: none
+.divDescription
+  background-image: linear-gradient(bottom, black 0%, white 100%)
+.divDescAndROl
+  display: grid
+  grid-template-columns: 1fr 1fr
+  text-align: center
+  align-items: center
+  margin-left: 10vmin
+  margin-right: 10vmin
+.divRol
+  width: 100%
+  height: 100%
+  color: white
+  display: grid
+  grid-template-columns: auto auto
+  padding-bottom: 5vmin
+  & > div
+    & > img
+      width: 15vmin
+      height: 15vmin
+.invertImg
+  filter: invert(100%)
+.descChmp
+  width: 65vmin
+  padding: 2%
+  align-self: center
+  justify-self: center
+  width: 100%
+  color: white
+  padding-bottom: 5vmin
+
+.divHabilites
+  padding-top: 3%
+  margin: 0 0
+  justify-content: space-between
+  background: linear-gradient(to bottom, black, white)
+  text-align: center
+  padding-bottom: 6vmin
+.divHabilites
+  & > h1
+    text-shadow: 1px 1px  white, 0 0 10px black
+    color: transparent
+    font-size: 3em
+    margin: 8vmin 10vmin
+.contentHabilites
+  display: grid
+  grid-template-columns: auto auto auto auto auto
+  margin: 5vmin 10vmin
+  grid-gap: 2%
+  & > div
+    text-align: center
+    & > p
+      font-size: 1rem
+    & > img
+      border-radius: 5%
+.divPreFooterVid
+  overflow: hidden
+  display: flex
+  justify-content: center
+  font-family: "Dosis-Regular"
+  margin-top: -5vmin
+  & > video
+    width: 200vmin
+    z-index: 1
+  & > a
+    font-family: Dosis-Bold
+    display: flex
+    justify-content: center
+    color: black
+    background-color: yellow
+    margin-top: 70vmin
+    position: absolute
+    z-index: 2
+    width: 200px
+    height: 50px
+    border-radius: 15px
+    &:hover
+      background-color: yellow
+      transition: width 2s
+      color: white
+      background-color: transparent
+      text-decoration: none
+      border: darkgrey 3px solid
+      border-radius: 15px
+    & > span
+      margin-top: 5%

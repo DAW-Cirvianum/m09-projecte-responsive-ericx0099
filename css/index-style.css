@@ -1,286 +1,257 @@
-
-/*.navbar-toggler{
-    background-color:white;
+.a-link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
 }
-navbar-toggler-icon{
-    color:black;
-}*/
-.a-link{
-    color:white;
-    background-color: transparent;
-    text-decoration: none;
+.a-link:active {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
 }
-.a-link:active{
-    color:white;
-    background-color: transparent;
-    text-decoration: none;
+.a-link:hover {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
 }
-.a-link:hover{
-    color:white;
-    background-color: transparent;
-    text-decoration: none;
-}
-.a-link:visited{
-    color:white;
-    background-color: transparent;
-    text-decoration: none;
+.a-link:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
 }
 
-
+.divOfVid {
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
 .divOfVid > video {
-
-    width:200vmin;
-    z-index: 1;
-
+  width: 200vmin;
+  z-index: 1;
 }
-.divOfVid{
-    overflow: hidden;
-    display: flex;
-    justify-content: center;
-
+.divOfVid > img {
+  position: absolute;
+  z-index: 2;
+  width: 70vmin;
+  margin-top: 35vmin;
 }
-
-
-
-.divOfVid > img{
-  /*  margin-top: 40%;*/
-    position:absolute;
-    z-index: 2;
-    width: 70vmin;
-    margin-top: 35vmin;
-
-
-}
-
 .divOfVid > a {
-    font-family: Dosis-Bold;
-    display: flex;
-    justify-content: center;
-    color: black;
-    background-color: yellow;
-    margin-top: 70vmin;
-    position:absolute;
-    z-index: 3;
-    width: 200px;
-    height: 50px;
+  font-family: Dosis-Bold;
+  display: flex;
+  justify-content: center;
+  color: black;
+  background-color: yellow;
+  margin-top: 70vmin;
+  position: absolute;
+  z-index: 3;
+  width: 200px;
+  height: 50px;
 }
-.divOfVid > a:hover{
-    background-color: yellow;
-    transition: width 2s;
-    color:white;
-    background-color: transparent;
-    text-decoration: none;
-    border: darkgrey 1px solid;
+.divOfVid > a:hover {
+  background-color: yellow;
+  transition: width 2s;
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+  border: darkgrey 1px solid;
 }
-.divOfVid > a > span{
-    margin-top: 5%;
-}
-
-.styleVideoCenter{
-    font-family: "Dosis-Regular";
-    margin-top: 0;
-}
-h1{
-    font-family: "Dosis-Bold";
-}
-.divCenterDesc{
-    font-family: "Dosis-Regular";
-    margin-left: 9%;
-    margin-right: 9%;
-    text-align: center;
-
+.divOfVid > a > span {
+  margin-top: 5%;
 }
 
-
-
-.divAkali{
-    background-color: #bf7a30;
-    background-image: linear-gradient(0deg, black 0%, gray 46%, white 100%);
-    overflow: hidden;
-padding-bottom: 20vmin;
+.styleVideoCenter {
+  font-family: "Dosis-Regular";
+  margin-top: 0;
 }
 
-
-.imgAkali{
-    width: 80vmin;
-    margin-left:auto;
-    margin-right: auto;
-    margin-top: -12vmin;
-
-}
-.textAkali{
-
-    font-family: Dosis-Bold;
-    text-align: center;
-    letter-spacing: 2px;
-    margin-bottom:  -10%;
-    color: black;
+h1 {
+  font-family: "Dosis-Bold";
 }
 
-.textAkali >h3{
-    font-family: Dosis-Regular;
-    font-size: 2vh;
-}
-.textAkali > h2{
-    font-size: 7vh;
-}
-.divMapLeague{
-   /* margin-top: 135vmin;*/
-    color: white;
-    background-color: black;
-    padding-bottom: 3em;
+.divCenterDesc {
+  font-family: "Dosis-Regular";
+  margin-left: 9%;
+  margin-right: 9%;
+  text-align: center;
 }
 
-.divMapLeague > img{
-    width: 80vmin;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-
-}
-.divMapLeague > h2{
-    font-family: "Dosis-Bold";
-    text-align: center;
-
-}
-.divLeyenda{
-    margin-top: 7vmin;
-    text-align: center;
-    align-items: center;
-text-align: center;
-
-}
-.divLeyenda >h3{
-    font-family: Dosis-Regular;
-    font-size: 2em;
-}
-.divLeyenda >h2{
-    font-family: Dosis-Bold;
-
-    font-size: 4em;
-}
-.divLeyenda >p{
-    font-family: Dosis-Regular;
-    font-size: 1em;
-    margin-left: 9%;
-    margin-right: 9%;
-
+.divAkali {
+  background-color: #bf7a30;
+  background-image: linear-gradient(0deg, black 0%, gray 46%, white 100%);
+  overflow: hidden;
+  padding-bottom: 20vmin;
 }
 
-.divLeyenda >a> button {
-    width: 10em;
-    height: 3em;
-    color: black;
-    background-color: yellow;
-    font-family: Dosis-Bold;
-}
-.divLeyenda > a>button:hover{
-    background-color: yellow;
-    color:white;
-    background-color: transparent;
-    cursor: pointer;
-    border: darkgrey 1px solid;
+.imgAkali {
+  width: 80vmin;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -12vmin;
 }
 
-.divPreFooterVid{
-    overflow: hidden;
-    display: flex;
-    justify-content: center;
-    font-family: "Dosis-Regular";
-    margin-top: 0;
+.textAkali {
+  font-family: Dosis-Bold;
+  text-align: center;
+  letter-spacing: 2px;
+  margin-bottom: -10%;
+  color: black;
+}
+.textAkali > h3 {
+  font-family: Dosis-Regular;
+  font-size: 2vh;
+}
+.textAkali > h2 {
+  font-size: 7vh;
 }
 
+.divMapLeague {
+  color: white;
+  background-color: black;
+  padding-bottom: 3em;
+}
+.divMapLeague > img {
+  width: 80vmin;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.divMapLeague > h2 {
+  font-family: "Dosis-Bold";
+  text-align: center;
+}
+
+.divLeyenda {
+  margin-top: 7vmin;
+  text-align: center;
+  align-items: center;
+  text-align: center;
+}
+.divLeyenda > h3 {
+  font-family: Dosis-Regular;
+  font-size: 2em;
+}
+.divLeyenda > h2 {
+  font-family: Dosis-Bold;
+  font-size: 4em;
+}
+.divLeyenda > p {
+  font-family: Dosis-Regular;
+  font-size: 1em;
+  margin-left: 9%;
+  margin-right: 9%;
+}
+.divLeyenda > a > button {
+  width: 10em;
+  height: 3em;
+  color: black;
+  background-color: yellow;
+  font-family: Dosis-Bold;
+}
+.divLeyenda > a > button:hover {
+  background-color: yellow;
+  color: white;
+  background-color: transparent;
+  cursor: pointer;
+  border: darkgrey 1px solid;
+}
+
+.divPreFooterVid {
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  font-family: "Dosis-Regular";
+  margin-top: 0;
+}
 .divPreFooterVid > video {
-    width:200vmin;
-    z-index: 1;
+  width: 200vmin;
+  z-index: 1;
 }
 .divPreFooterVid > a {
-    font-family: Dosis-Bold;
-    display: flex;
-    justify-content: center;
-    color: black;
-    background-color: yellow;
-    margin-top: 70vmin;
-    position:absolute;
-    z-index: 2;
-    width: 200px;
-    height: 50px;
-    border-radius: 15px;
+  font-family: Dosis-Bold;
+  display: flex;
+  justify-content: center;
+  color: black;
+  background-color: yellow;
+  margin-top: 70vmin;
+  position: absolute;
+  z-index: 2;
+  width: 200px;
+  height: 50px;
+  border-radius: 15px;
+}
+.divPreFooterVid > a:hover {
+  background-color: yellow;
+  transition: width 2s;
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+  border: darkgrey 3px solid;
+  border-radius: 15px;
+}
+.divPreFooterVid > a > span {
+  margin-top: 5%;
 }
 
-.divDescobrir{
-    padding:3%;
+.divDescobrir {
+  padding: 3%;
 }
-.descobrir{
-    text-align: center;
-}
-.descobrir >h3{
-    font-family: Dosis-Regular;
-    font-size: 2em;
 
+.descobrir {
+  text-align: center;
 }
-.descobrir >h2{
-    font-family: Dosis-Bold;
-    font-size: 4em;
+.descobrir > h3 {
+  font-family: Dosis-Regular;
+  font-size: 2em;
 }
-.cardsDesc{
-    margin-top: -9vmin;
-    text-align: center;
-    overflow:hidden;
-    padding: 4%;
-    display: flex;
- /*   flex-direction: column;*/
-    justify-content: center;
-    flex-wrap: wrap;
+.descobrir > h2 {
+  font-family: Dosis-Bold;
+  font-size: 4em;
+}
 
-
+.cardsDesc {
+  margin-top: -9vmin;
+  text-align: center;
+  overflow: hidden;
+  padding: 4%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
-.aDark{
-    color:black;
-    background-color: transparent;
-    text-decoration: none;
-}
-.aDark:active{
-    color:black;
-    background-color: transparent;
-    text-decoration: none;
-}
-.aDark:hover{
-    color:black;
-    background-color: transparent;
-    text-decoration: none;
-}
-.aDark:visited{
-    color:black;
-    background-color: transparent;
-    text-decoration: none;
-}
-.cardsDesc > div{
-    margin-top: 16vmin;
-    width: 75vmin;
+.cardsDesc > div {
+  margin-top: 16vmin;
+  width: 75vmin;
 }
 .cardsDesc > div > img {
-    border-radius: 15px;
-    height: 45vmin;
-    width: 100%;
-}
-.cardLol > h5{
-    padding: 2%;
-    font-family: Dosis-Bold;
-    width: 80vmin;
-    text-align: center;
-
+  border-radius: 15px;
+  height: 45vmin;
+  width: 100%;
 }
 
-.divPreFooterVid > a:hover{
-    background-color: yellow;
-    transition: width 2s;
-    color:white;
-    background-color: transparent;
-    text-decoration: none;
-    border: darkgrey 3px solid;
-    border-radius: 15px;
+.aDark {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
 }
-.divPreFooterVid > a > span{
-    margin-top: 5%;
+.aDark:active {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
 }
+.aDark:hover {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+.aDark:visited {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.cardLol > h5 {
+  padding: 2%;
+  font-family: Dosis-Bold;
+  width: 80vmin;
+  text-align: center;
+}
+
+/*# sourceMappingURL=index-style.css.map */
