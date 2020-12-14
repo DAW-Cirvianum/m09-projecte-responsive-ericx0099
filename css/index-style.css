@@ -81,7 +81,6 @@ h1 {
   overflow: hidden;
   padding-bottom: 20vmin;
   display: flex;
-
 }
 
 .imgAkali {
@@ -99,30 +98,17 @@ h1 {
   color: black;
   width: 100%;
   justify-content: center;
-
-
 }
-.textAkali > div>h3 {
+.textAkali > div {
+  font-family: Dosis-Bold;
+  margin: auto;
+}
+.textAkali > div > h3 {
   font-family: Dosis-Regular;
   font-size: 4vh;
 }
-.textAkali > div>h2 {
+.textAkali > div > h2 {
   font-size: 7vh;
-}
-@media (min-width: 1300px){
-  .textAkali{
-    width: 100%;
-    text-align: center;
-    letter-spacing: 2px;
-    display: flex;
-    color: black;
-    margin: auto;
-
-  }
-  .textAkali>div{
-    font-family: Dosis-Bold;
-    margin: auto;
-  }
 }
 
 .divMapLeague {
@@ -130,6 +116,7 @@ h1 {
   background-color: black;
   padding-bottom: 3em;
 }
+
 .divMapLeague > img {
   width: 80vmin;
   display: block;
@@ -231,25 +218,22 @@ h1 {
 }
 
 .cardsDesc {
-
   margin-top: -9vmin;
   text-align: center;
   overflow: hidden;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-
 }
 .cardsDesc > div {
   width: 75vmin;
-  margin:16vmin 3vmin;
+  margin: 16vmin 3vmin;
 }
 .cardsDesc > div > img {
   border-radius: 15px;
   height: 45vmin;
   width: 100%;
 }
-
 
 .aDark {
   color: black;
@@ -278,6 +262,14 @@ h1 {
   width: 80vmin;
   text-align: center;
 }
-
-
+@media (min-width: 1300px) {
+  .textAkali {
+    width: 100%;
+    text-align: center;
+    letter-spacing: 2px;
+    display: flex;
+    color: black;
+    margin: auto;
+  }
+}
 /*# sourceMappingURL=index-style.css.map */
