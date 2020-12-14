@@ -83,15 +83,6 @@ h1 {
   display: flex;
 
 }
-@keyframes wait {
-  from { transform: translateY(20px); }
-  to { transform: translateY(20px); }
-}
-
-@keyframes slideInFromBottom {
-  from { transform: translateY(20px); opacity: 100%; }
-  to { transform: translateY(0); opacity: 1; }
-}
 
 .imgAkali {
   width: 80vmin;
