@@ -75,10 +75,22 @@ h1 {
 }
 
 .divAkali {
+  animation: 3s ease-out 0s 1 wait, 0.21s ease-out 3s 1 slideInFromBottom;
   background-color: #bf7a30;
   background-image: linear-gradient(0deg, black 0%, gray 46%, white 100%);
   overflow: hidden;
   padding-bottom: 20vmin;
+  display: flex;
+
+}
+@keyframes wait {
+  from { transform: translateY(20px); }
+  to { transform: translateY(20px); }
+}
+
+@keyframes slideInFromBottom {
+  from { transform: translateY(20px); opacity: 100%; }
+  to { transform: translateY(0); opacity: 1; }
 }
 
 .imgAkali {
@@ -94,13 +106,32 @@ h1 {
   letter-spacing: 2px;
   margin-bottom: -10%;
   color: black;
+  width: 100%;
+  justify-content: center;
+
+
 }
-.textAkali > h3 {
+.textAkali > div>h3 {
   font-family: Dosis-Regular;
-  font-size: 2vh;
+  font-size: 4vh;
 }
-.textAkali > h2 {
+.textAkali > div>h2 {
   font-size: 7vh;
+}
+@media (min-width: 1300px){
+  .textAkali{
+    width: 100%;
+    text-align: center;
+    letter-spacing: 2px;
+    display: flex;
+    color: black;
+    margin: auto;
+
+  }
+  .textAkali>div{
+    font-family: Dosis-Bold;
+    margin: auto;
+  }
 }
 
 .divMapLeague {
@@ -193,6 +224,7 @@ h1 {
 
 .divDescobrir {
   padding: 3%;
+  margin-bottom: -5vmin;
 }
 
 .descobrir {
@@ -208,23 +240,25 @@ h1 {
 }
 
 .cardsDesc {
+
   margin-top: -9vmin;
   text-align: center;
   overflow: hidden;
-  padding: 4%;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+
 }
 .cardsDesc > div {
-  margin-top: 16vmin;
   width: 75vmin;
+  margin:16vmin 3vmin;
 }
 .cardsDesc > div > img {
   border-radius: 15px;
   height: 45vmin;
   width: 100%;
 }
+
 
 .aDark {
   color: black;
@@ -253,5 +287,6 @@ h1 {
   width: 80vmin;
   text-align: center;
 }
+
 
 /*# sourceMappingURL=index-style.css.map */

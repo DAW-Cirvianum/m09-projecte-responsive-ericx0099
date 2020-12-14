@@ -2,8 +2,23 @@
     padding:0;
     margin:0;
     font-family: Dosis-Bold;
+
+}
+body :not(nav){
+    animation: transitionIn 0.75s;
 }
 
+@keyframes transitionIn {
+    from{
+        opacity: 0;
+
+        transform: rotateX(-1deg);
+    }
+    to{
+        opacity: 1;
+        transform: rotateX(0);
+    }
+}
 @font-face {
     font-family: "Dosis-Regular";
     src: url("../fonts/Dosis/Dosis-Regular.ttf");
@@ -15,6 +30,13 @@
 }
 .navbar{
     background-color: black;
+}
+/*p:hover{
+    font-size: 4vmin;
+}*/
+.divOfAkalis{
+    background-color: blue;
+    width: 500%;
 }
 
                 /******Footer CSS********/
